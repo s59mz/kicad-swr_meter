@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/matjaz/Kicad/kicad-swr_meter/swr.kicad_sch</source>
+    <date>ned 17 dec 2023 17:11:47</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SWR Meter</title>
+        <company>S59MZ</company>
+        <rev>1.0</rev>
+        <date>2023-04-08</date>
+        <source>swr.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79268f7f-89ce-4c7e-911b-8c72e21a1427</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71cc235b-6543-40af-af14-9e045018b657</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>820c1c6b-b46c-429f-90cf-52b3359925cb</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b927fc6d-b119-488b-87ea-786b48e9fae5</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5711W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.microsemi.com/document-portal/doc_download/131890-lds-0040-1-datasheet</datasheet>
+      <libsource lib="Diode" part="1N5711UR" description="70V 33mA Schottky diode, MELF(DO-213AA)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="70V 33mA Schottky diode, MELF(DO-213AA)"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4932fd6e-daf8-4bdf-bace-e9e86a093d27</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5711W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.microsemi.com/document-portal/doc_download/131890-lds-0040-1-datasheet</datasheet>
+      <libsource lib="Diode" part="1N5711UR" description="70V 33mA Schottky diode, MELF(DO-213AA)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="70V 33mA Schottky diode, MELF(DO-213AA)"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0129f9dd-ddeb-419e-aa01-e4464c697444</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N5711W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.microsemi.com/document-portal/doc_download/131890-lds-0040-1-datasheet</datasheet>
+      <libsource lib="Diode" part="1N5711UR" description="70V 33mA Schottky diode, MELF(DO-213AA)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="70V 33mA Schottky diode, MELF(DO-213AA)"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0785e304-0a5e-46a0-a87b-fff2fc228ddf</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>662700a0-425f-47a6-8072-ceda0b6b5f36</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d738bb-6fd2-41c9-a6a6-bdb19f174df6</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f142136-f4f8-4171-82c4-99b4b3f9e859</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7bcfc00-f125-4e2c-b0ad-1dd29612063e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>pinHeader</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>790713ac-4a4c-4ac0-8e81-63de0dda0d23</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7888aff-7394-4fc9-b2b0-2935e93efff3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40dc30c0-5ce7-4035-8954-284d3d9de4ff</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3028d88f-369e-4c75-9802-f9199b370dae</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19c383fb-23fe-40b8-8c7a-a47b148093f4</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75a3dc7b-4414-45a6-9ea0-0cda00763635</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4.99k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>880938c3-3216-4c3c-88b5-0081ed7da6b7</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>FT50-43</value>
+      <footprint>Library:Transformer_swr_20</footprint>
+      <libsource lib="" part="Transformer_swr_1" description="Transformer, single primary, single secondary"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Transformer, single primary, single secondary"/>
+      <property name="ki_keywords" value="transformer coil magnet"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e9e4729-8744-4569-94c9-7128b2c61b2d</tstamps>
+    </comp>
+    <comp ref="T2">
+      <value>FT82_43</value>
+      <footprint>Library:Transformer_swr_25</footprint>
+      <libsource lib="Library" part="Transformer_swr" description="Transformer, single primary, single secondary"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="swr.kicad_sch"/>
+      <property name="ki_description" value="Transformer, single primary, single secondary"/>
+      <property name="ki_keywords" value="transformer coil magnet"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c3b4add-d6f2-4039-862f-adbca86c43be</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Transformer_swr_1">
+      <description>Transformer, single primary, single secondary</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Transformer_swr*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_swr_1</field>
+        <field name="Footprint">Library:Transformer_swr_20</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SB" type="passive"/>
+        <pin num="2" name="SA" type="passive"/>
+        <pin num="3" name="AA" type="passive"/>
+        <pin num="4" name="AB" type="passive"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5711UR">
+      <description>70V 33mA Schottky diode, MELF(DO-213AA)</description>
+      <docs>https://www.microsemi.com/document-portal/doc_download/131890-lds-0040-1-datasheet</docs>
+      <footprints>
+        <fp>D?MELF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5711UR</field>
+        <field name="Footprint">Diode_SMD:D_MELF</field>
+        <field name="Datasheet">https://www.microsemi.com/document-portal/doc_download/131890-lds-0040-1-datasheet</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Library" part="Transformer_swr">
+      <description>Transformer, single primary, single secondary</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Transformer_swr*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_swr</field>
+        <field name="Footprint">Library:Transformer_swr_20</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SB" type="passive"/>
+        <pin num="2" name="SA" type="passive"/>
+        <pin num="3" name="AA" type="passive"/>
+        <pin num="4" name="AB" type="passive"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Library">
+      <uri>/home/matjaz/Kicad/kicad-swr_meter/Library.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/alc">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/output">
+      <node ref="T1" pin="2" pinfunction="SA" pintype="passive"/>
+      <node ref="T2" pin="3" pinfunction="AA" pintype="passive"/>
+    </net>
+    <net code="3" name="/pwr">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="4" name="/ref">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="T1" pin="4" pinfunction="AB" pintype="passive"/>
+      <node ref="T1" pin="5" pinfunction="shield" pintype="passive"/>
+      <node ref="T2" pin="4" pinfunction="AB" pintype="passive"/>
+      <node ref="T2" pin="5" pinfunction="shield" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="T2" pin="1" pinfunction="SB" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="AA" pintype="passive"/>
+      <node ref="T2" pin="2" pinfunction="SA" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D3-K)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(T1-SB-Pad1)">
+      <node ref="T1" pin="1" pinfunction="SB" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
